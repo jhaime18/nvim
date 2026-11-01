@@ -8,7 +8,13 @@ return {
     },
     opts = {
       -- Servers installed will be automatically enable
-      ensure_installed = { "lua_ls", "ts_ls", "pylsp", "tailwindcss" },
+      ensure_installed = {
+        "lua_ls",
+        "ts_ls",
+        "pylsp",
+        "angularls",
+        "tailwindcss",
+      },
     },
   },
 
