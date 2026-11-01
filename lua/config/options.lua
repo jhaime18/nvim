@@ -44,3 +44,9 @@ vim.g.loaded_node_provider = 1
 vim.g.loaded_perl_provider = 0
 vim.g.loaded_ruby_provider = 0
 vim.g.loaded_python3_provider = 1
+
+-- EditConfig
+-- Disable automatic application of .editorconfig settings.
+-- Useful when working with existing projects where you want to
+-- preserve the project's orginal formatting.
+vim.g.editorconfig = false
