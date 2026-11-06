@@ -23,6 +23,7 @@ return {
         "ts_ls",
         "pylsp",
         "angularls",
+        "bashls",
         "tailwindcss",
       },
     },
