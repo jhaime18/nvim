@@ -4,6 +4,7 @@ return {
     auto_install = true,
     ensure_installed = {
       "bash",
+      "diff",
       "html",
       "javascript",
       "json",
