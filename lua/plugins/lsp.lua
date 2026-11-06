@@ -6,6 +6,16 @@ return {
       { "mason-org/mason.nvim", opts = {} },
       "neovim/nvim-lspconfig",
     },
+    keys = {
+      {
+        "<leader>f",
+        function()
+          require("conform").format({ async = true, lsp_fallback = true })
+        end,
+        mode = { "n", "v" },
+        desc = "Format buffer or selection",
+      },
+    },
     opts = {
       -- Servers installed will be automatically enable
       ensure_installed = {
