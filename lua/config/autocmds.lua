@@ -1,10 +1,10 @@
--- Auto format when saved
-vim.api.nvim_create_autocmd("BufWritePre", {
-  pattern = "*",
-  callback = function(args)
-    require("conform").format({ bufnr = args.buf })
-  end,
-})
+-- -- Auto format when saved
+-- vim.api.nvim_create_autocmd("BufWritePre", {
+--   pattern = "*",
+--   callback = function(args)
+--     require("conform").format({ bufnr = args.buf })
+--   end,
+-- })
 
 -- LSP keymaps (Optional: Mostly are default settings)
 vim.api.nvim_create_autocmd("LspAttach", {
