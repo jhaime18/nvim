@@ -87,6 +87,7 @@ return {
         javascript = { "prettier" },
         html = { "prettier" },
         css = { "prettier" },
+        markdown = { "prettier" },
       },
     },
   },
